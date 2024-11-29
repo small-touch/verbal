@@ -1,6 +1,9 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
+  history: {
+    type: 'hash',
+  },
   publicPath: '/back/',
   antd: {},
   access: {},
