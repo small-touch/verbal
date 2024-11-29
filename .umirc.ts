@@ -1,7 +1,7 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
-  publicPath: '/',
+  publicPath: '/back/',
   antd: {},
   access: {},
   model: {},
